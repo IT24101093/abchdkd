@@ -108,7 +108,7 @@ This project was collaboratively built by a team of 4 members. Each member was r
 ---
 
 ### 4️⃣ Payment Processing
-**👤 [Team Member 4 Name]** — *[Student ID]*
+**👤 Tharusha Cooray** — *IT24101462*
 
 > The financial gateway — securely logs, verifies, and manages payment transactions for marketplace orders.
 
