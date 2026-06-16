@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Animated Gem Stone" width="120" />
 
-# Online Gem Buy and Sell System
+# Smart Gem Marketplace
 **A comprehensive enterprise-grade platform for gemstone trading and automated valuation — built with Vanilla JS, TailwindCSS, Spring Boot, Java, and AI (FastAPI/TensorFlow)**
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -37,7 +37,7 @@
 ---
 
 ## 🔎 Overview
-**Online Gem Buy and Sell System** is a modular enterprise application developed as a university group project. It provides a robust backend ecosystem to streamline gemstone trading. The system handles everything from automated, AI-driven inventory appraisal and mathematical carat estimations to a fully functioning marketplace, order lifecycle management, and secure payment processing.
+**Smart Gem Marketplace** is a modular enterprise application developed as a university group project. It provides a robust backend ecosystem to streamline gemstone trading. The system handles everything from automated, AI-driven inventory appraisal and mathematical carat estimations to a fully functioning marketplace, order lifecycle management, and secure payment processing.
 
 The project is divided into **4 core components**, independently developed by the team and seamlessly integrated using a Spring Boot architecture.
 
@@ -49,7 +49,7 @@ This project was collaboratively built by a team of 4 members. Each member was r
 ---
 
 ### 1️⃣ Inventory Management & AI Analysis
-**👤 [Your Name]** — *[Student ID]*
+**👤 Chathurya** — *IT24101093*
 
 > Core system foundation — handles gem stock, manual and automated descriptions, mathematical weight/price estimations, AI-powered authenticity detection, and certified lab gem tracking.
 
@@ -70,7 +70,7 @@ This project was collaboratively built by a team of 4 members. Each member was r
 ---
 
 ### 2️⃣ Marketplace Management
-**👤 [Team Member 2 Name]** — *[Student ID]*
+**👤 Jayasooriya J.M.V.** — *IT24101016*
 
 > The storefront engine — manages listings, drafts, jewellery items, gem variants, and user-facing browse capabilities.
 
@@ -89,7 +89,7 @@ This project was collaboratively built by a team of 4 members. Each member was r
 ---
 
 ### 3️⃣ Order Management
-**👤 [Team Member 3 Name]** — *[Student ID]*
+**👤 Dharmathilaka A.K.S** — *IT24100278*
 
 > The logistics and order lifecycle — handles customer orders, courier configurations, insurance, and delivery tracking.
 
