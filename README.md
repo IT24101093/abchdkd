@@ -161,7 +161,7 @@ The model was trained on a dataset of **6,043 images**, split across Train, Test
 #### 📓 Model Training
 The AI model was trained using Google Colab. View the interactive code and training outputs here:
 
-🔗 **[Insert Link to your Google Colab Notebook Here]**
+🔗 **[https://colab.research.google.com/drive/1Tx9z7RXkURVjvaCkjNW15aUjOBXzY2jU?usp=sharing]**
 
 ---
 
