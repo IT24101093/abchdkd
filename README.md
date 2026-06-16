@@ -188,7 +188,7 @@ The AI model was trained using Google Colab. View the interactive code and train
 |---|---|
 | **Python** | AI logic and processing |
 | **FastAPI** | High-performance API for model serving |
-| **TensorFlow / Keras** | Deep learning framework (MobileNetV2) |
+| **TensorFlow / Keras** | Deep learning framework used to implement the MobileNetV2 architecture |
 
 ---
 
