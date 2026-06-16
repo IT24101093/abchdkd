@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Animated Gem Stone" width="120" />
+
+# Online Gem Buy and Sell System
 **A comprehensive enterprise-grade platform for gemstone trading and automated valuation — built with Spring Boot, Java, and AI (FastAPI/TensorFlow)**
 
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -10,7 +13,7 @@
 
 ---
 
-*Automate gem valuations, verify authenticity with AI, browse the marketplace, and manage secure orders & payments in one unified system.*
+*Automate gem valuations, verify authenticity with AI, discover optimal cuts, browse the marketplace, and manage secure orders & payments in one unified system.*
 
 </div>
 
@@ -43,18 +46,20 @@ This project was collaboratively built by a team of 4 members. Each member was r
 ### 1️⃣ Inventory Management & AI Analysis
 **👤 [Your Name]** — *[Student ID]*
 
-> Core system foundation — handles gem stock, manual and automated descriptions, mathematical weight/price estimations, and AI-powered authenticity detection.
+> Core system foundation — handles gem stock, manual and automated descriptions, mathematical weight/price estimations, AI-powered authenticity detection, and certified lab gem tracking.
 
 | Layer | Files |
 |---|---|
-| **Backend — Models** | `InventoryItem.java`, `ValidationReport.java`, `SpecificGravity.java`, `YieldFactor.java` |
-| **Backend — Services** | `InventoryItemService.java`, `SmartAnalysisEngineService.java`, `SmartAnalysisDetectService.java` |
-| **Backend — Controllers** | `InventoryItemController.java`, `SmartAnalysisController.java` |
+| **Backend — Models** | `InventoryItem.java`, `GemCertificate.java`, `ValidationReport.java`, `SpecificGravity.java`, `YieldFactor.java` |
+| **Backend — Services** | `InventoryItemService.java`, `CertifiedGemService.java`, `SmartAnalysisEngineService.java`, `SmartAnalysisDetectService.java` |
+| **Backend — Controllers** | `InventoryItemController.java`, `CertifiedGemController.java`, `SmartAnalysisController.java` |
 | **AI — Detection** | Connects to Python FastAPI via `RestTemplate` with multipart image uploads |
 
 **Key Features Implemented:**
-- 📦 Inventory lifecycle management (In Stock, Pending, Published, Sold, Removed)
+- 📦 **Inventory Lifecycle Management:** Track gems through statuses (In Stock, Pending, Published, Sold, Removed).
+- 📜 **Certified Gems Tracking:** Directly add gems certified by recognized labs, upload lab reports, and store certificate verification URLs.
 - 🧮 **Mathematical Engine (Java):** Calculates estimated carat weight and value based on volume, specific gravity, and shape factor.
+- ✂️ **Smart Cut Recommendations:** Recommends the optimal gem cuts (Round, Oval, Emerald), calculating exact **yield percentages**, projected yield carats, and potential final market value after cutting.
 - 🤖 **AI Gem Authenticity:** Classifies uploaded gem images (Real vs. Fake) using a custom TensorFlow MobileNetV2 model via FastAPI.
 
 ---
@@ -71,10 +76,10 @@ This project was collaboratively built by a team of 4 members. Each member was r
 | **Backend — Controllers** | `MarketplaceController.java`, `AdminMarketplaceController.java` |
 
 **Key Features Implemented:**
-- 🏪 Public marketplace for browsing gems and jewellery
-- 📝 Draft system for sellers to prepare listings before publishing
-- 💎 Variant management (handling different carats, cuts, and color tones)
-- 🛡️ Admin controls for marketplace moderation
+- 🏪 **Public Marketplace:** Browsing capability for loose gems and set jewellery.
+- 📝 **Draft System:** Allows sellers to prepare listings before publishing.
+- 💎 **Variant Management:** Handling different carats, cuts, and color tones for a single gem type.
+- 🛡️ **Admin Controls:** Moderation tools for the marketplace.
 
 ---
 
@@ -90,10 +95,10 @@ This project was collaboratively built by a team of 4 members. Each member was r
 | **Backend — Controllers** | `OrderController.java`, `DeliveryServiceController.java`, `FinanceController.java` |
 
 **Key Features Implemented:**
-- 🛒 End-to-end order processing and tracking
-- 🚚 Delivery and courier service integrations and configurations
-- 🛡️ Insurance and risk calculation for high-value gemstone shipping
-- 👥 Customer profile and shipping detail management
+- 🛒 **Order Processing:** End-to-end processing and tracking of customer purchases.
+- 🚚 **Delivery Services:** Integrations and configurations for various courier services.
+- 🛡️ **Insurance & Risk:** Dynamic risk calculation for high-value gemstone shipping.
+- 👥 **Customer Profiles:** Shipping detail and address management.
 
 ---
 
@@ -109,18 +114,20 @@ This project was collaboratively built by a team of 4 members. Each member was r
 | **Backend — Controllers** | `PaymentController.java` |
 
 **Key Features Implemented:**
-- 💳 Secure payment transaction logging
-- 🔄 Payment status lifecycle tracking (Pending, Success, Failed, Refunded)
-- 🔗 Direct integration with the Order Management module to confirm purchases
+- 💳 **Transaction Logging:** Securely records payment details.
+- 🔄 **Lifecycle Tracking:** Monitors payment status (Pending, Success, Failed, Refunded).
+- 🔗 **Order Sync:** Direct integration with the Order Management module to confirm purchases upon successful payment.
 
 ---
 
 ## 🧠 Deep Dive: Inventory Smart Analysis
 
-The Inventory component features a dual-layered automated appraisal system.
+The Inventory component features a multi-layered automated appraisal and detection system.
 
-### 🧮 1. Mathematical Engine (Java)
+### 🧮 1. Mathematical Engine & Cut Recommender (Java)
 A custom Java service (`SmartAnalysisEngineService.java`) acts as an **Automatic Weight and Price Calculator**. Based on constants fetched from the database (Specific Gravity, Shape Factors, Yield Percents, Multipliers), it dynamically calculates exact volume, estimated carats, and fair market value.
+
+Furthermore, it processes **Yield Percentages** to suggest the best physical cut for raw stones (Round, Oval, or Emerald) to maximize the final carat weight and financial return.
 
 <div align="center">
   <!-- ⚠️ ACTION NEEDED: Replace the src below with your actual image path -->
@@ -247,6 +254,7 @@ erDiagram
     INVENTORY_ITEM ||--o| VALIDATION_REPORT : has
     INVENTORY_ITEM ||--o{ MARKETPLACE_LISTING : published_as
     MARKETPLACE_LISTING ||--o{ GEM_CARAT_VARIANT : includes
+    INVENTORY_ITEM ||--o| GEM_CERTIFICATE : tracked_by
 ```
 
 ---
