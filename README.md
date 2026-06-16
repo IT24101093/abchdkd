@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Animated Gem Stone" width="120" />
 
-# Smart Gem Marketplace
+# Online Gem Buy and Sell System
 **A comprehensive enterprise-grade platform for gemstone trading and automated valuation — built with Vanilla JS, TailwindCSS, Spring Boot, Java, and AI (FastAPI/TensorFlow)**
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -31,6 +31,7 @@
 - [Architecture](#-architecture)
 - [Project Structure](#-project-structure)
 - [Database Models](#-database-models)
+- [System Screenshots](#-system-screenshots)
 - [License](#-license)
 
 ---
@@ -188,7 +189,7 @@ The AI model was trained using Google Colab. View the interactive code and train
 |---|---|
 | **Python** | AI logic and processing |
 | **FastAPI** | High-performance API for model serving |
-| **TensorFlow / Keras** | Deep learning framework used to implement the MobileNetV2 architecture |
+| **TensorFlow / Keras** | Deep learning framework (MobileNetV2) |
 
 ---
 
@@ -268,6 +269,36 @@ erDiagram
     MARKETPLACE_LISTING ||--o{ GEM_CARAT_VARIANT : includes
     INVENTORY_ITEM ||--o| GEM_CERTIFICATE : tracked_by
 ```
+
+---
+
+## 📸 System Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Inventory Dashboard</b><br/><i>Manage stock & certificates</i></td>
+      <td align="center"><b>Marketplace Storefront</b><br/><i>Browse gems & jewellery</i></td>
+      <td align="center"><b>AI Authentication</b><br/><i>Real vs Fake detection</i></td>
+    </tr>
+    <tr>
+      <!-- ⚠️ ACTION NEEDED: Replace the src below with your actual screenshot paths -->
+      <td><img src="./path/to/screenshot1.png" alt="Inventory Dashboard" width="300" /></td>
+      <td><img src="./path/to/screenshot2.png" alt="Marketplace" width="300" /></td>
+      <td><img src="./path/to/screenshot3.png" alt="AI Detection" width="300" /></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Order Management</b><br/><i>Track shipping & delivery</i></td>
+      <td align="center"><b>Payment Analytics</b><br/><i>Admin financial dashboard</i></td>
+      <td align="center"><b>Smart Calculator</b><br/><i>Java math weight estimations</i></td>
+    </tr>
+    <tr>
+      <td><img src="./path/to/screenshot4.png" alt="Order Management" width="300" /></td>
+      <td><img src="./path/to/screenshot5.png" alt="Payment Analytics" width="300" /></td>
+      <td><img src="./path/to/screenshot6.png" alt="Smart Calculator" width="300" /></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
