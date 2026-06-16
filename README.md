@@ -137,7 +137,7 @@ Furthermore, it processes **Yield Percentages** to suggest the best physical cut
 
 <div align="center">
   <!-- ⚠️ ACTION NEEDED: Replace the src below with your actual image path -->
-  <img src="https://github.com/IT24101093/online-gem-buy-sell-system/blob/ac87d25c94ec33d4ca8aa51539abdc6fd4dbbece/src/main/resources/Images/Gemini_Generated_Image_shto8cshto8cshto.png" alt="Automatic Weight and Price Calculator" width="700"/>
+  <img src="https://github.com/IT24101093/online-gem-buy-sell-system/blob/1e995a433aa4908f59bec6484430925bccf834bb/src/main/resources/Images/Java_Math.png" alt="Automatic Weight and Price Calculator" width="700"/>
 </div>
 
 ### 🤖 2. Artificial Intelligence (Gem Authenticity)
@@ -274,31 +274,17 @@ erDiagram
 
 ## 📸 System Screenshots
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><b>Inventory Dashboard</b><br/><i>Manage stock & certificates</i></td>
-      <td align="center"><b>Marketplace Storefront</b><br/><i>Browse gems & jewellery</i></td>
-      <td align="center"><b>AI Authentication</b><br/><i>Real vs Fake detection</i></td>
-    </tr>
-    <tr>
-      <!-- ⚠️ ACTION NEEDED: Replace the src below with your actual screenshot paths -->
-      <td><img src="./path/to/screenshot1.png" alt="Inventory Dashboard" width="300" /></td>
-      <td><img src="./path/to/screenshot2.png" alt="Marketplace" width="300" /></td>
-      <td><img src="./path/to/screenshot3.png" alt="AI Detection" width="300" /></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Order Management</b><br/><i>Track shipping & delivery</i></td>
-      <td align="center"><b>Payment Analytics</b><br/><i>Admin financial dashboard</i></td>
-      <td align="center"><b>Smart Calculator</b><br/><i>Java math weight estimations</i></td>
-    </tr>
-    <tr>
-      <td><img src="./path/to/screenshot4.png" alt="Order Management" width="300" /></td>
-      <td><img src="./path/to/screenshot5.png" alt="Payment Analytics" width="300" /></td>
-      <td><img src="./path/to/screenshot6.png" alt="Smart Calculator" width="300" /></td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20164942.png" alt="Inventory Dashboard" height="180" title="Inventory Dashboard - Manage stock & certificates" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165031.png" alt="Marketplace Storefront" height="180" title="Marketplace Storefront - Browse gems & jewellery" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165115.png" alt="AI Authentication" height="180" title="AI Authentication - Real vs Fake detection" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165206.png" alt="Order Management" height="180" title="Order Management - Track shipping & delivery" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165244.png" alt="Payment Analytics" height="180" title="Payment Analytics - Admin financial dashboard" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20170036.png" alt="Smart Calculator" height="180" title="Smart Calculator - Java math weight estimations" />
+</p>
 
 ---
 
