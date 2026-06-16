@@ -137,7 +137,7 @@ Furthermore, it processes **Yield Percentages** to suggest the best physical cut
 
 <div align="center">
   <!-- ⚠️ ACTION NEEDED: Replace the src below with your actual image path -->
-  <img src="https://github.com/IT24101093/online-gem-buy-sell-system/blob/ced9ebff00ef5abee7c6655b3fa72a4cf33a3f4f/src/main/resources/pppppp/Gemini_Generated_Image_shto8cshto8cshto.png" alt="Automatic Weight and Price Calculator" width="700"/>
+  <img src="https://github.com/IT24101093/online-gem-buy-sell-system/blob/ac87d25c94ec33d4ca8aa51539abdc6fd4dbbece/src/main/resources/Images/Gemini_Generated_Image_shto8cshto8cshto.png" alt="Automatic Weight and Price Calculator" width="700"/>
 </div>
 
 ### 🤖 2. Artificial Intelligence (Gem Authenticity)
