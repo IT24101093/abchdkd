@@ -117,6 +117,7 @@ This project was collaboratively built by a team of 4 members. Each member was r
 - 💳 **Transaction Logging:** Securely records payment details.
 - 🔄 **Lifecycle Tracking:** Monitors payment status (Pending, Success, Failed, Refunded).
 - 🔗 **Order Sync:** Direct integration with the Order Management module to confirm purchases upon successful payment.
+- 📊 **Analytics Dashboard:** Admin-side dashboard for tracking revenue metrics, transaction histories, and overall financial reporting.
 
 ---
 
@@ -161,6 +162,13 @@ The AI model was trained using Google Colab. View the interactive code and train
 
 ## 🛠️ Tech Stack
 
+### Frontend (User Interface)
+| Technology | Purpose |
+|---|---|
+| **[Your Frontend Framework]** | e.g., React.js, Next.js, or Angular for the UI |
+| **[Styling Tool]** | e.g., TailwindCSS, Bootstrap, or Material UI |
+| **[HTTP Client]** | e.g., Axios or Fetch API for backend communication |
+
 ### Backend (REST API)
 | Technology | Purpose |
 |---|---|
@@ -184,7 +192,7 @@ The AI model was trained using Google Colab. View the interactive code and train
 
 ```mermaid
 graph TD
-    Client[Client App / Postman] --> |REST API| SpringBoot[Spring Boot Backend]
+    Client[Frontend Client Application] --> |REST API| SpringBoot[Spring Boot Backend]
     
     subgraph Spring Boot Application
         Auth[Security & Auth]
