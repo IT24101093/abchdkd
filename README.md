@@ -3,8 +3,12 @@
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Animated Gem Stone" width="120" />
 
 # Online Gem Buy and Sell System
-**A comprehensive enterprise-grade platform for gemstone trading and automated valuation — built with Spring Boot, Java, and AI (FastAPI/TensorFlow)**
+**A comprehensive enterprise-grade platform for gemstone trading and automated valuation — built with Vanilla JS, TailwindCSS, Spring Boot, Java, and AI (FastAPI/TensorFlow)**
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -165,9 +169,9 @@ The AI model was trained using Google Colab. View the interactive code and train
 ### Frontend (User Interface)
 | Technology | Purpose |
 |---|---|
-| **[Your Frontend Framework]** | e.g., React.js, Next.js, or Angular for the UI |
-| **[Styling Tool]** | e.g., TailwindCSS, Bootstrap, or Material UI |
-| **[HTTP Client]** | e.g., Axios or Fetch API for backend communication |
+| **HTML5 & CSS3** | Core structure and custom styling of the web interface |
+| **JavaScript (Vanilla)** | Dynamic client-side logic and API communication |
+| **TailwindCSS** | Utility-first CSS framework for modern, responsive layouts |
 
 ### Backend (REST API)
 | Technology | Purpose |
