@@ -275,15 +275,16 @@ erDiagram
 ## 📸 System Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20164942.png" alt="Inventory Dashboard" height="180" title="Inventory Dashboard - Manage stock & certificates" />
-  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165031.png" alt="Marketplace Storefront" height="180" title="Marketplace Storefront - Browse gems & jewellery" />
-  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165115.png" alt="AI Authentication" height="180" title="AI Authentication - Real vs Fake detection" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20164942.png" alt="Inventory Dashboard" height="160" title="Inventory Dashboard - Manage stock & certificates" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165031.png" alt="Marketplace Storefront" height="160" title="Marketplace Storefront - Browse gems & jewellery" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165115.png" alt="AI Authentication" height="160" title="AI Authentication - Real vs Fake detection" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165206.png" alt="Order Management" height="160" title="Order Management - Track shipping & delivery" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165206.png" alt="Order Management" height="180" title="Order Management - Track shipping & delivery" />
-  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165244.png" alt="Payment Analytics" height="180" title="Payment Analytics - Admin financial dashboard" />
-  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20170036.png" alt="Smart Calculator" height="180" title="Smart Calculator - Java math weight estimations" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20165244.png" alt="Payment Analytics" height="160" title="Payment Analytics - Admin financial dashboard" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20170036.png" alt="Smart Calculator" height="160" title="Smart Calculator - Java math weight estimations" />
+  <img src="https://raw.githubusercontent.com/IT24101093/online-gem-buy-sell-system/c03535ce4cecea5c3c08bc733360240262d024c7/src/main/resources/Images/Screenshot%202026-06-16%20164814.png" alt="System Overview" height="160" title="System Application Overview" />
 </p>
 
 ---
