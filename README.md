@@ -32,8 +32,7 @@
 - [Project Structure](#-project-structure)
 - [Database Models](#-database-models)
 - [System Screenshots](#-system-screenshots)
-- [License](#-licens<img width="1408" height="768" alt="Gemini_Generated_Image_shto8cshto8cshto" src="https://github.com/user-attachments/assets/b5816f1d-7f5e-4de0-8144-672e35d6010b" />
-e)
+- [License](#-license)
 
 ---
 
@@ -138,7 +137,7 @@ Furthermore, it processes **Yield Percentages** to suggest the best physical cut
 
 <div align="center">
   <!-- ⚠️ ACTION NEEDED: Replace the src below with your actual image path -->
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Automatic Weight and Price Calculator" width="700"/>
+  <img src="https://github.com/IT24101093/online-gem-buy-sell-system/blob/ced9ebff00ef5abee7c6655b3fa72a4cf33a3f4f/src/main/resources/pppppp/Gemini_Generated_Image_shto8cshto8cshto.png" alt="Automatic Weight and Price Calculator" width="700"/>
 </div>
 
 ### 🤖 2. Artificial Intelligence (Gem Authenticity)
